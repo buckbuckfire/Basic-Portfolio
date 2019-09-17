@@ -1,0 +1,36 @@
+
+    
+
+h1 {
+    color:#4aaaa5; 
+    height: 200px;
+    width: 50%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.pic {
+    float: left;
+}
+
+ul {
+    display: inline-block;
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+li{
+    list-style: none ;
+    display: inline;
+}
+
+#top{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    }
+    #top h1{
+    display:inline;
+    }
+    #top ul li{
+    display:inline;
+    }
