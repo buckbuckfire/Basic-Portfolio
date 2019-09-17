@@ -1,5 +1,8 @@
+body {
+    background-image: url("/assets/images/cork-board.png");
+}
 
-    
+
 
 h1 {
     color:#4aaaa5; 
@@ -34,3 +37,15 @@ li{
     #top ul li{
     display:inline;
     }
+#top h1{
+    color: white;
+    background-color: #4aaaa5;
+}
+
+#meat {
+  width: 960px;
+  padding: 10px;
+  border: 5px solid white;
+  margin: 0;
+  background-image: url("/assets/images/cork-board.png");
+}
