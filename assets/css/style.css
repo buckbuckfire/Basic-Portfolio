@@ -6,12 +6,14 @@ body {
 
 h1 {
     color:#4aaaa5; 
-    height: 200px;
-    width: 50%;
+    height: 100px;
+    width: 15%;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    display: inline-block;
+
 }
 
-.pic {
+#meat img {
     float: left;
 }
 
@@ -29,23 +31,41 @@ li{
 #top{
     margin:0px;
     padding:0px;
-    width:100%;
+    width:75%;
     }
-    #top h1{
-    display:inline;
-    }
-    #top ul li{
-    display:inline;
-    }
+
 #top h1{
+    margin-left: auto;
+    margin-right: auto;
     color: white;
     background-color: #4aaaa5;
+    text-align: center;
+    display: inline;
+
 }
+#top ul li{
+    display:inline;
+    }
 
 #meat {
   width: 960px;
-  padding: 10px;
-  border: 5px solid white;
-  margin: 0;
-  background-image: url("/assets/images/cork-board.png");
-}
+  padding: 0px;
+  color: black
+  border: 0px solid white;
+  background-color: white ;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+    }
+
+    hr {
+        width: 1%;
+        height: 1px;
+        background-color:black;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-width: 2px;
+        border-color: black;
+        }
