@@ -37,6 +37,8 @@ h1 {
     margin-left: 240px;
     margin-right: 240px;
     padding:0px;
+    background-color: white;
+    
     }
 
 #top h1{
@@ -54,6 +56,7 @@ h1 {
 #top ul li{
     display:inline;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
     }
 
 #meat {
