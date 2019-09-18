@@ -17,55 +17,63 @@ h1 {
     float: left;
 }
 
-ul {
+.nav {
     display: inline-block;
     float: right;
+    list-style: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
-li{
-    list-style: none ;
+#meat .aboutme {
+    text-align: left;
     display: inline;
+
 }
+
+
 
 #top{
-    margin:0px;
+    margin-left: 240px;
+    margin-right: 240px;
     padding:0px;
-    width:75%;
     }
 
 #top h1{
+    width: 960px;
+    padding-bottom: auto;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 240px;
     color: white;
     background-color: #4aaaa5;
     text-align: center;
     display: inline;
+    overflow: hidden;
 
 }
 #top ul li{
     display:inline;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
 #meat {
   width: 960px;
-  padding: 0px;
+  padding-top: auto;
   color: black
   border: 0px solid white;
   background-color: white ;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 240px;
+  margin-right: 240px;
   overflow: hidden;
+  
+  
     }
 
     hr {
-        width: 1%;
+        width: 960px;
         height: 1px;
         background-color:black;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-width: 2px;
-        border-color: black;
+        
         }
